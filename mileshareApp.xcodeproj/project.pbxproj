@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21CA7F4A8F120C6956319161 /* Pods_mileshareAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48762C7CA0A4240B9C964F8D /* Pods_mileshareAppUITests.framework */; };
+		23267BD9DD789606C4215710 /* Pods_mileshareAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4FACE33F17FC70FE83194B /* Pods_mileshareAppTests.framework */; };
 		2A820C8F204A712600D6BD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A820C8E204A712600D6BD01 /* AppDelegate.swift */; };
 		2A820C91204A712600D6BD01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A820C90204A712600D6BD01 /* ViewController.swift */; };
 		2A820C94204A712600D6BD01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A820C92204A712600D6BD01 /* Main.storyboard */; };
 		2A820C96204A712600D6BD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A820C95204A712600D6BD01 /* Assets.xcassets */; };
 		2A820C99204A712600D6BD01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A820C97204A712600D6BD01 /* LaunchScreen.storyboard */; };
-		2A820CA4204A712600D6BD01 /* mileshareAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A820CA3204A712600D6BD01 /* mileshareAppTests.swift */; };
+		2A820CA4204A712600D6BD01 /* WhatMileShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A820CA3204A712600D6BD01 /* WhatMileShare.swift */; };
 		2A820CAF204A712700D6BD01 /* mileshareAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A820CAE204A712700D6BD01 /* mileshareAppUITests.swift */; };
+		B3EE7915C2C41DBA5FC79D33 /* Pods_mileshareApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8578F4A3BA07D7D7DF2CF8D5 /* Pods_mileshareApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ADEBF1D0C2A9544678FD592 /* Pods-mileshareAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileshareAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mileshareAppTests/Pods-mileshareAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A4FACE33F17FC70FE83194B /* Pods_mileshareAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mileshareAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A820C8B204A712600D6BD01 /* mileshareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mileshareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A820C8E204A712600D6BD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A820C90204A712600D6BD01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +47,18 @@
 		2A820C98204A712600D6BD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A820C9A204A712600D6BD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A820C9F204A712600D6BD01 /* mileshareAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mileshareAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A820CA3204A712600D6BD01 /* mileshareAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mileshareAppTests.swift; sourceTree = "<group>"; };
+		2A820CA3204A712600D6BD01 /* WhatMileShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatMileShare.swift; sourceTree = "<group>"; };
 		2A820CA5204A712600D6BD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A820CAA204A712700D6BD01 /* mileshareAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mileshareAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A820CAE204A712700D6BD01 /* mileshareAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mileshareAppUITests.swift; sourceTree = "<group>"; };
 		2A820CB0204A712700D6BD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36129D82010AC7092F69965E /* Pods-mileshareApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileshareApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-mileshareApp/Pods-mileshareApp.release.xcconfig"; sourceTree = "<group>"; };
+		48762C7CA0A4240B9C964F8D /* Pods_mileshareAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mileshareAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBBE8BD87CA994306481BA7 /* Pods-mileshareAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileshareAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mileshareAppUITests/Pods-mileshareAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D29D3B4D55DED7AD37CB1A2 /* Pods-mileshareApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileshareApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mileshareApp/Pods-mileshareApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8578F4A3BA07D7D7DF2CF8D5 /* Pods_mileshareApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mileshareApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A36B641B24CF4B4AD518E7 /* Pods-mileshareAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileshareAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mileshareAppUITests/Pods-mileshareAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EE06088F113469D36758DE83 /* Pods-mileshareAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileshareAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mileshareAppTests/Pods-mileshareAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3EE7915C2C41DBA5FC79D33 /* Pods_mileshareApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23267BD9DD789606C4215710 /* Pods_mileshareAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CA7F4A8F120C6956319161 /* Pods_mileshareAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +93,11 @@
 			isa = PBXGroup;
 			children = (
 				2A820C8D204A712600D6BD01 /* mileshareApp */,
-				2A820CA2204A712600D6BD01 /* mileshareAppTests */,
+				2A820CA2204A712600D6BD01 /* WhatMileShare */,
 				2A820CAD204A712700D6BD01 /* mileshareAppUITests */,
 				2A820C8C204A712600D6BD01 /* Products */,
+				CFAD2B4A2447C9F1D0B50734 /* Pods */,
+				E467A56BDC081D4CC7A03ABA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,13 +124,13 @@
 			path = mileshareApp;
 			sourceTree = "<group>";
 		};
-		2A820CA2204A712600D6BD01 /* mileshareAppTests */ = {
+		2A820CA2204A712600D6BD01 /* WhatMileShare */ = {
 			isa = PBXGroup;
 			children = (
-				2A820CA3204A712600D6BD01 /* mileshareAppTests.swift */,
+				2A820CA3204A712600D6BD01 /* WhatMileShare.swift */,
 				2A820CA5204A712600D6BD01 /* Info.plist */,
 			);
-			path = mileshareAppTests;
+			path = WhatMileShare;
 			sourceTree = "<group>";
 		};
 		2A820CAD204A712700D6BD01 /* mileshareAppUITests */ = {
@@ -125,6 +142,29 @@
 			path = mileshareAppUITests;
 			sourceTree = "<group>";
 		};
+		CFAD2B4A2447C9F1D0B50734 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D29D3B4D55DED7AD37CB1A2 /* Pods-mileshareApp.debug.xcconfig */,
+				36129D82010AC7092F69965E /* Pods-mileshareApp.release.xcconfig */,
+				0ADEBF1D0C2A9544678FD592 /* Pods-mileshareAppTests.debug.xcconfig */,
+				EE06088F113469D36758DE83 /* Pods-mileshareAppTests.release.xcconfig */,
+				4CBBE8BD87CA994306481BA7 /* Pods-mileshareAppUITests.debug.xcconfig */,
+				B7A36B641B24CF4B4AD518E7 /* Pods-mileshareAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E467A56BDC081D4CC7A03ABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8578F4A3BA07D7D7DF2CF8D5 /* Pods_mileshareApp.framework */,
+				1A4FACE33F17FC70FE83194B /* Pods_mileshareAppTests.framework */,
+				48762C7CA0A4240B9C964F8D /* Pods_mileshareAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A820CB3204A712700D6BD01 /* Build configuration list for PBXNativeTarget "mileshareApp" */;
 			buildPhases = (
+				A358E06CA903051A2A2F4D29 /* [CP] Check Pods Manifest.lock */,
 				2A820C87204A712600D6BD01 /* Sources */,
 				2A820C88204A712600D6BD01 /* Frameworks */,
 				2A820C89204A712600D6BD01 /* Resources */,
+				D0D2F280FEA0E20881F8A6D7 /* [CP] Embed Pods Frameworks */,
+				04B934AFA6B1F5A3B1540F4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A820CB6204A712700D6BD01 /* Build configuration list for PBXNativeTarget "mileshareAppTests" */;
 			buildPhases = (
+				E24BEC9E513DD5A029F7B2AE /* [CP] Check Pods Manifest.lock */,
 				2A820C9B204A712600D6BD01 /* Sources */,
 				2A820C9C204A712600D6BD01 /* Frameworks */,
 				2A820C9D204A712600D6BD01 /* Resources */,
+				32D7DD2EADDC46364F910FE3 /* [CP] Embed Pods Frameworks */,
+				D705C4904FEBD3036FD85F52 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A820CB9204A712700D6BD01 /* Build configuration list for PBXNativeTarget "mileshareAppUITests" */;
 			buildPhases = (
+				A477EA0CD201287AEFFF77D1 /* [CP] Check Pods Manifest.lock */,
 				2A820CA6204A712700D6BD01 /* Sources */,
 				2A820CA7204A712700D6BD01 /* Frameworks */,
 				2A820CA8204A712700D6BD01 /* Resources */,
+				C3C1506F22D1169F657ED36A /* [CP] Embed Pods Frameworks */,
+				17DFB825E3EBF2517BDC11C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +303,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04B934AFA6B1F5A3B1540F4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mileshareApp/Pods-mileshareApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17DFB825E3EBF2517BDC11C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mileshareAppUITests/Pods-mileshareAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32D7DD2EADDC46364F910FE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mileshareAppTests/Pods-mileshareAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A358E06CA903051A2A2F4D29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mileshareApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A477EA0CD201287AEFFF77D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mileshareAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C1506F22D1169F657ED36A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mileshareAppUITests/Pods-mileshareAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D2F280FEA0E20881F8A6D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mileshareApp/Pods-mileshareApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mileshareApp/Pods-mileshareApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D705C4904FEBD3036FD85F52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mileshareAppTests/Pods-mileshareAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24BEC9E513DD5A029F7B2AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mileshareAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A820C87204A712600D6BD01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,7 +483,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A820CA4204A712600D6BD01 /* mileshareAppTests.swift in Sources */,
+				2A820CA4204A712600D6BD01 /* WhatMileShare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +639,7 @@
 		};
 		2A820CB4204A712700D6BD01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D29D3B4D55DED7AD37CB1A2 /* Pods-mileshareApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +655,7 @@
 		};
 		2A820CB5204A712700D6BD01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36129D82010AC7092F69965E /* Pods-mileshareApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +671,7 @@
 		};
 		2A820CB7204A712700D6BD01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADEBF1D0C2A9544678FD592 /* Pods-mileshareAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +689,7 @@
 		};
 		2A820CB8204A712700D6BD01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE06088F113469D36758DE83 /* Pods-mileshareAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +707,7 @@
 		};
 		2A820CBA204A712700D6BD01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CBBE8BD87CA994306481BA7 /* Pods-mileshareAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +724,7 @@
 		};
 		2A820CBB204A712700D6BD01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A36B641B24CF4B4AD518E7 /* Pods-mileshareAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
