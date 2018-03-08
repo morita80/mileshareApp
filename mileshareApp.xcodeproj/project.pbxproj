@@ -11,6 +11,7 @@
 		23267BD9DD789606C4215710 /* Pods_mileshareAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4FACE33F17FC70FE83194B /* Pods_mileshareAppTests.framework */; };
 		2A77DA3520510738005CA3F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A77DA3420510738005CA3F3 /* GoogleService-Info.plist */; };
 		2A77DA3720510B11005CA3F3 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DA3620510B11005CA3F3 /* RegistrationViewController.swift */; };
+		2A77DA7320513A09005CA3F3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DA7220513A09005CA3F3 /* MainViewController.swift */; };
 		2A820C8F204A712600D6BD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A820C8E204A712600D6BD01 /* AppDelegate.swift */; };
 		2A820C91204A712600D6BD01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A820C90204A712600D6BD01 /* ViewController.swift */; };
 		2A820C94204A712600D6BD01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A820C92204A712600D6BD01 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		1A4FACE33F17FC70FE83194B /* Pods_mileshareAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mileshareAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A77DA3420510738005CA3F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2A77DA3620510B11005CA3F3 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		2A77DA7220513A09005CA3F3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2A820C8B204A712600D6BD01 /* mileshareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mileshareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A820C8E204A712600D6BD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A820C90204A712600D6BD01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				2A77DA3420510738005CA3F3 /* GoogleService-Info.plist */,
+				2A77DA7220513A09005CA3F3 /* MainViewController.swift */,
 				2A820C8E204A712600D6BD01 /* AppDelegate.swift */,
 				2A820C90204A712600D6BD01 /* ViewController.swift */,
 				2A820C92204A712600D6BD01 /* Main.storyboard */,
@@ -484,6 +487,7 @@
 				2A77DA3720510B11005CA3F3 /* RegistrationViewController.swift in Sources */,
 				2A820C91204A712600D6BD01 /* ViewController.swift in Sources */,
 				2A820C8F204A712600D6BD01 /* AppDelegate.swift in Sources */,
+				2A77DA7320513A09005CA3F3 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

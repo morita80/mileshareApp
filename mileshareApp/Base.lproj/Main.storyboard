@@ -261,7 +261,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBL-yF-dYk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8715.2000000000007" y="1543.6281859070466"/>
+            <point key="canvasLocation" x="7243" y="2464"/>
         </scene>
         <!--問い合わせ確認-->
         <scene sceneID="rMO-2s-oIP">
@@ -464,7 +464,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HOD-RE-pR9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9584" y="1543.6281859070466"/>
+            <point key="canvasLocation" x="8112" y="2464"/>
         </scene>
         <!--registrationView-->
         <scene sceneID="CKV-2U-fOR">
@@ -691,7 +691,7 @@
                                     <color key="titleColor" red="0.97605095819999999" green="0.97133573620000002" blue="0.98076618019999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="53m-9M-xZ0" kind="show" id="Yh3-qE-PLg"/>
+                                    <segue destination="53m-9M-xZ0" kind="presentation" id="Yh3-qE-PLg"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="メールアドレス" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5DQ-DL-X7A">
@@ -754,7 +754,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z67-es-iOV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2991.1999999999998" y="-351.27436281859076"/>
+            <point key="canvasLocation" x="2430" y="-496"/>
         </scene>
         <!--MY PAGE-->
         <scene sceneID="kzl-fe-fGj">
@@ -923,7 +923,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ftr-4p-dxp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7192.8000000000002" y="796.55172413793105"/>
+            <point key="canvasLocation" x="5721" y="1717"/>
         </scene>
         <!--予約確認-->
         <scene sceneID="r5w-qA-ceB">
@@ -964,7 +964,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sbx-XF-xVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7924" y="796.55172413793105"/>
+            <point key="canvasLocation" x="6452" y="1717"/>
         </scene>
         <!--キャンセルについて-->
         <scene sceneID="r6c-UV-zQH">
@@ -1163,7 +1163,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GPJ-Mu-qvQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4449" y="2917"/>
+            <point key="canvasLocation" x="3873" y="2933"/>
         </scene>
         <!--問い合わせ完了-->
         <scene sceneID="NvT-jW-8mW">
@@ -1225,7 +1225,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jA7-Ya-S9V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10247.200000000001" y="1542.2788605697153"/>
+            <point key="canvasLocation" x="8775" y="2463"/>
         </scene>
         <!--Mile Shareとは-->
         <scene sceneID="J7z-Hz-gT1">
@@ -1639,7 +1639,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lds-rW-B83" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2020" y="5324"/>
+            <point key="canvasLocation" x="1444" y="5341"/>
         </scene>
         <!--FAQ-->
         <scene sceneID="Hm5-yS-mjv">
@@ -2929,7 +2929,7 @@ PayPal（クレジット決済代行サービス）
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0qA-fc-dry" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2848.8000000000002" y="5413.4932533733136"/>
+            <point key="canvasLocation" x="2273" y="5431"/>
         </scene>
         <!--registrationView2-->
         <scene sceneID="MG2-U7-SeZ">
@@ -3003,7 +3003,7 @@ PayPal（クレジット決済代行サービス）
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZcY-lW-rBq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7194.3999999999996" y="1528.785607196402"/>
+            <point key="canvasLocation" x="5722" y="2449"/>
         </scene>
         <!--メール一覧-->
         <scene sceneID="VNh-qx-G0X">
@@ -3048,7 +3048,7 @@ PayPal（クレジット決済代行サービス）
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pl5-VC-tiR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6855.1999999999998" y="2266.4167916041979"/>
+            <point key="canvasLocation" x="5383" y="3187"/>
         </scene>
         <!--予約詳細-->
         <scene sceneID="gb1-cK-2gM">
@@ -3084,7 +3084,7 @@ PayPal（クレジット決済代行サービス）
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="74b-d0-RCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8759.2000000000007" y="796.55172413793105"/>
+            <point key="canvasLocation" x="7287" y="1717"/>
         </scene>
         <!--過去予約詳細-->
         <scene sceneID="Y7L-SD-afS">
@@ -3120,7 +3120,7 @@ PayPal（クレジット決済代行サービス）
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="47L-Z8-x43" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7924" y="1528.785607196402"/>
+            <point key="canvasLocation" x="6452" y="2449"/>
         </scene>
         <!--受信メール-->
         <scene sceneID="V9p-3S-qgO">
@@ -3191,18 +3191,18 @@ URL ：http://mileshare.jp/
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ex1-T9-WNL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7585" y="2266"/>
+            <point key="canvasLocation" x="6113" y="3186"/>
         </scene>
         <!--mainView-->
         <scene sceneID="tCb-yi-FBn">
             <objects>
-                <viewController title="mainView" id="7DU-JG-guz" sceneMemberID="viewController">
+                <viewController title="mainView" id="7DU-JG-guz" customClass="MainViewController" customModule="mileshareApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kqP-7d-bRJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2391"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNd-fx-1NZ">
-                                <rect key="frame" x="0.0" y="64" width="375" height="2278"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="2322"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AyJ-Fw-XDP">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="2325"/>
@@ -3267,6 +3267,9 @@ URL ：http://mileshare.jp/
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="depertuerSarchAction:" destination="7DU-JG-guz" eventType="editingDidEnd" id="xws-zN-Lz4"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="到着地を入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lyY-cv-fFp">
                                                 <rect key="frame" x="47" y="254" width="279" height="30"/>
@@ -3276,6 +3279,9 @@ URL ：http://mileshare.jp/
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="arrivalSarchAction:" destination="7DU-JG-guz" eventType="editingDidEnd" id="FdZ-mX-EeE"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="出発日を入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NbJ-Vy-WB8">
                                                 <rect key="frame" x="47" y="322" width="279" height="30"/>
@@ -3727,10 +3733,13 @@ URL ：http://mileshare.jp/
                     </view>
                     <tabBarItem key="tabBarItem" title="Search" image="虫眼鏡の無料アイコン8" id="FXR-9h-Tyy"/>
                     <size key="freeformSize" width="375" height="2391"/>
+                    <connections>
+                        <outlet property="dateSelecter" destination="NbJ-Vy-WB8" id="Val-Su-4hF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hr5-OF-lNW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4788" y="338.68065967016497"/>
+            <point key="canvasLocation" x="3748" y="279"/>
         </scene>
         <!--topView-->
         <scene sceneID="dma-3y-5vd">
@@ -4121,7 +4130,7 @@ URL ：http://mileshare.jp/
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mGV-mi-kOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1428" y="205.54722638680661"/>
+            <point key="canvasLocation" x="1444" y="278"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="dA1-4D-LOU">
@@ -4141,7 +4150,7 @@ URL ：http://mileshare.jp/
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lkn-SB-yJx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2991.1999999999998" y="563.56821589205401"/>
+            <point key="canvasLocation" x="2430" y="277"/>
         </scene>
         <!--menuView-->
         <scene sceneID="jOD-Rb-tNI">
@@ -4152,14 +4161,14 @@ URL ：http://mileshare.jp/
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MENU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bnu-qd-EE5">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="0.2518193493150685" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ou1-OG-gKX" userLabel="MileShareとは">
-                                <rect key="frame" x="53" y="187" width="95" height="84"/>
+                                <rect key="frame" x="53" y="143" width="95" height="84"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="95" id="8sc-vG-5Tx"/>
                                     <constraint firstAttribute="height" constant="84" id="HIK-7j-vZq"/>
@@ -4170,28 +4179,28 @@ URL ：http://mileshare.jp/
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42K-ZK-pyb" userLabel="FAQ">
-                                <rect key="frame" x="208" y="167" width="124" height="124"/>
+                                <rect key="frame" x="208" y="123" width="124" height="124"/>
                                 <state key="normal" image="はてなのアイコン"/>
                                 <connections>
                                     <segue destination="zpz-JZ-lR0" kind="show" id="9UL-p8-zub"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wRu-ER-77S" userLabel="利用規約">
-                                <rect key="frame" x="38" y="418" width="124" height="80"/>
+                                <rect key="frame" x="38" y="374" width="124" height="124"/>
                                 <state key="normal" image="文章付きのノートアイコン素材3"/>
                                 <connections>
                                     <segue destination="N2g-bH-ta3" kind="show" id="rte-Kv-5RT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vlo-7X-iji" userLabel="キャンセルについて">
-                                <rect key="frame" x="208" y="418" width="124" height="80"/>
+                                <rect key="frame" x="208" y="374" width="124" height="124"/>
                                 <state key="normal" image="やや太いバツのアイコン2"/>
                                 <connections>
                                     <segue destination="tQs-8J-JiU" kind="show" id="R83-dG-KlL"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mile Shareとは" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqp-xP-kpd">
-                                <rect key="frame" x="34" y="321" width="141" height="21"/>
+                                <rect key="frame" x="34" y="277" width="141" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="MXh-R3-ym0"/>
                                 </constraints>
@@ -4200,7 +4209,7 @@ URL ：http://mileshare.jp/
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAQ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYQ-Ub-BXd">
-                                <rect key="frame" x="200" y="319" width="141" height="24"/>
+                                <rect key="frame" x="200" y="275" width="141" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -4263,7 +4272,7 @@ URL ：http://mileshare.jp/
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Xk-a5-Lpp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3658" y="1836"/>
+            <point key="canvasLocation" x="2430" y="1893"/>
         </scene>
         <!--My Page-->
         <scene sceneID="OPc-2C-qCA">
@@ -4282,7 +4291,7 @@ URL ：http://mileshare.jp/
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sJE-WV-BSs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6375.1999999999998" y="796.55172413793105"/>
+            <point key="canvasLocation" x="4903" y="1717"/>
         </scene>
         <!--会員情報変更-->
         <scene sceneID="rk9-hP-RKl">
@@ -4645,7 +4654,7 @@ URL ：http://mileshare.jp/
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k3B-xH-RkO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6114" y="3867"/>
+            <point key="canvasLocation" x="7286" y="3853"/>
         </scene>
         <!--Menu-->
         <scene sceneID="oIw-tK-Eai">
@@ -4664,7 +4673,7 @@ URL ：http://mileshare.jp/
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Zp-mh-qys" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2652" y="1836"/>
+            <point key="canvasLocation" x="2430" y="1027"/>
         </scene>
         <!--利用規約-->
         <scene sceneID="KQH-2H-zBu">
@@ -4675,7 +4684,7 @@ URL ：http://mileshare.jp/
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GCX-G7-sk6">
-                                <rect key="frame" x="0.0" y="108" width="375" height="7093"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="7137"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8mI-Tj-kJF">
                                         <rect key="frame" x="0.0" y="0.0" width="373" height="7141"/>
@@ -5344,11 +5353,12 @@ URL ：http://mileshare.jp/
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QBm-SA-9Zt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3625" y="5683"/>
+            <point key="canvasLocation" x="3049" y="5700"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="90x-jo-gEI">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vcc-zX-hKB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zFf-U1-XIk" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MbJ-dC-8fG">
@@ -5360,9 +5370,8 @@ URL ：http://mileshare.jp/
                         <segue destination="bE2-Dz-lga" kind="relationship" relationship="rootViewController" id="lp6-1y-ml9"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vcc-zX-hKB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="719" y="206"/>
+            <point key="canvasLocation" x="489" y="277"/>
         </scene>
     </scenes>
     <resources>
@@ -5390,6 +5399,6 @@ URL ：http://mileshare.jp/
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="tNM-HN-uDE"/>
-        <segue reference="y0a-cw-KZQ"/>
+        <segue reference="Ml3-l8-xhz"/>
     </inferredMetricsTieBreakers>
 </document>
