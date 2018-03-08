@@ -1,0 +1,6 @@
+framework module Pods_mileshareAppTests {
+  umbrella header "Pods-mileshareAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

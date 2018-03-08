@@ -4386,7 +4386,7 @@ URL ：http://mileshare.jp/
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mGV-mi-kOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1284" y="260"/>
+            <point key="canvasLocation" x="1089" y="206"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="dA1-4D-LOU">
