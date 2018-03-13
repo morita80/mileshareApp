@@ -28,6 +28,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
             self.alreadysignIn()
         }
     
+        
+        
         //日付フィールドの設定
         dateFormat.dateFormat = "yyyy年MM月dd日"
         dateSelecter.text = dateFormat.string(from: nowDate as Date)
