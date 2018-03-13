@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-
+import FirebaseAuth
 
 class ViewController: UIViewController,UITextFieldDelegate {
     
@@ -24,7 +24,10 @@ class ViewController: UIViewController,UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-   
+        if let _ = Auth.auth().currentUser {
+            self.alreadysignIn()
+        }
+    
         //日付フィールドの設定
         dateFormat.dateFormat = "yyyy年MM月dd日"
         dateSelecter.text = dateFormat.string(from: nowDate as Date)
@@ -56,7 +59,11 @@ class ViewController: UIViewController,UITextFieldDelegate {
         pickerToolBar.items = [spaceBarBtn,toolBarBtn]
         dateSelecter.inputAccessoryView = pickerToolBar
     }
-
+    //キーボード以外をタッチしたらキーボードが閉じる
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -78,5 +85,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
    
    
 }
-
+    func alreadysignIn() {
+        performSegue(withIdentifier: "alreadysignIn", sender: nil)
+    }
 }

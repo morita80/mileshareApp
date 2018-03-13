@@ -9,7 +9,8 @@ target 'mileshareApp' do
 
   pod 'Firebase/Core'
   pod 'Firebase/Firestore’
-
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 
 
   target 'mileshareAppTests' do
