@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class MainViewController: UIViewController,UITextFieldDelegate {
 
@@ -74,7 +76,20 @@ class MainViewController: UIViewController,UITextFieldDelegate {
         dateSelecter.text = dateFormat.string(from: pickerDate)
         
         self.view.endEditing(true)
-        
-        
     }
+    
+    //キーボード以外をタッチしたらキーボードが閉じる
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    @IBAction func tappedSingOut(_ sender: UIButton) {
+        do {
+            try Auth.auth().signOut()
+            performSegue(withIdentifier: "signOut", sender: nil)
+        } catch let error {
+            assertionFailure("Error signing out: \(error)")
+        }
+    }
+    
 }

@@ -40,7 +40,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    //ログインボタン
     @IBAction func didTapSignIn(_ sender: UIButton) {
         let email = emailField.text
         let password = passwordField.text
@@ -65,7 +65,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             self.signIn()
         })
     }
-
+    //パスワード再発行
     @IBAction func didRequestPasswordReset(_ sender: UIButton) {
         let prompt = UIAlertController(title: "To Do App", message: "Email:", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default) { (action) in
